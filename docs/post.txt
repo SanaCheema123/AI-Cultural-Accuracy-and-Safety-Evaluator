@@ -1,0 +1,30 @@
+I’m excited to share my latest AI project: CulturalGuard AI — AI Cultural Accuracy and Safety Evaluator.
+
+CulturalGuard AI is designed to evaluate AI-generated images against Arabic prompts and provide structured insights around:
+
+Prompt–image similarity
+Cultural accuracy and contextual consistency
+Safety and inappropriate-content detection
+Bias and stereotype indicators
+Missing or inconsistent visual elements
+Human-review recommendations
+Historical evaluation tracking
+
+The platform is built with a modern full-stack architecture using React, TypeScript, Vite, FastAPI, Python, PostgreSQL/SQLite, and Google Gemini integration, with support for Arabic/English language switching and RTL layouts.
+
+A major focus of this project was building it as more than just a static dashboard. The application includes a complete workflow from image upload and Arabic prompt input to AI analysis, structured findings, confidence signals, and evaluation history.
+
+I also focused heavily on:
+
+Clean and responsive SaaS UI/UX
+Secure authentication and JWT session handling
+Live AI evaluation instead of fabricated demo scores
+Arabic-first usability and RTL responsiveness
+Explainable results with evidence, confidence, and recommendations
+Modular architecture for future AI model integration
+
+This project has been a great opportunity to work across AI/ML, full-stack development, SaaS architecture, UX design, authentication, API integration, and production-oriented engineering.
+
+Still improving the system with better evaluation models, human expert review workflows, richer analytics, and stronger benchmarking capabilities.
+
+#ArtificialIntelligence #GenerativeAI #MachineLearning #FullStackDevelopment #FastAPI #ReactJS #TypeScript #Python #SaaS #ArabicAI #ResponsibleAI #AIEngineering #SoftwareEngineering #WebDevelopment #PortfolioProject

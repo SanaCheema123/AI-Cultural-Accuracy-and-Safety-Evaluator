@@ -1,0 +1,2 @@
+import type { HTMLAttributes,ReactNode } from 'react';import { cn } from '@/lib/cn';
+export function Card({className,...p}:HTMLAttributes<HTMLDivElement>){return <div className={cn('cg-card',className)} {...p}/>};export function CardHeader({title,subtitle,action}:{title:string;subtitle?:string;action?:ReactNode}){return <div className="flex items-start justify-between gap-4 border-b border-[var(--border)] px-5 py-4"><div><h2 className="font-bold text-[var(--text)]">{title}</h2>{subtitle&&<p className="mt-1 text-sm text-[var(--muted)]">{subtitle}</p>}</div>{action}</div>}

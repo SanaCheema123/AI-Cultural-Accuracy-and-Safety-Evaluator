@@ -1,0 +1,5 @@
+import type { InputHTMLAttributes,TextareaHTMLAttributes } from 'react';import { cn } from '@/lib/cn';
+export function Label({children,htmlFor}:{children:React.ReactNode;htmlFor?:string}){return <label htmlFor={htmlFor} className="mb-1.5 block text-sm font-semibold text-[var(--text)]">{children}</label>}
+export function Input({className,...p}:InputHTMLAttributes<HTMLInputElement>){return <input className={cn('focus-ring h-11 w-full rounded-xl border border-[var(--border)] bg-[var(--surface)] px-3.5 text-sm text-[var(--text)] placeholder:text-slate-400',className)} {...p}/>}
+export function Textarea({className,...p}:TextareaHTMLAttributes<HTMLTextAreaElement>){return <textarea className={cn('focus-ring min-h-28 w-full resize-y rounded-xl border border-[var(--border)] bg-[var(--surface)] px-3.5 py-3 text-sm text-[var(--text)] placeholder:text-slate-400',className)} {...p}/>}
+export function Select({className,...p}:React.SelectHTMLAttributes<HTMLSelectElement>){return <select className={cn('focus-ring h-11 w-full rounded-xl border border-[var(--border)] bg-[var(--surface)] px-3 text-sm text-[var(--text)]',className)} {...p}/>}
