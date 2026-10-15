@@ -1,4 +1,10 @@
 # CulturalGuard AI
+<img width="958" height="434" alt="history" src="https://github.com/user-attachments/assets/40663d66-4892-4eff-a6b4-bbd51f0c8cc8" />
+<img width="959" height="437" alt="evaluate" src="https://github.com/user-attachments/assets/bdaebdfe-9653-432e-9f2d-1d15c7ab3ad8" />
+<img width="958" height="441" alt="settings" src="https://github.com/user-attachments/assets/a35665ba-39ea-4ada-b792-b4ca3095de20" />
+<img width="959" height="428" alt="home" src="https://github.com/user-attachments/assets/93b05aa8-fc35-4f11-87f9-e744729b12a3" />
+
+
 
 **AI Cultural Accuracy and Safety Evaluator**  
 **Tagline:** *Respecting Cultures. Empowering AI.*
